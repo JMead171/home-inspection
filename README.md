@@ -1,4 +1,4 @@
 # My project
-Home Inpsection Report
+Home Inspection Report
 
 ## Description
