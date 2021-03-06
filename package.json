@@ -1,0 +1,22 @@
+{
+  "name": "home-inspection",
+  "version": "1.0.0",
+  "description": "Home Inspection Report",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMead171/home-inspection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMead171/home-inspection/issues"
+  },
+  "homepage": "https://github.com/JMead171/home-inspection#readme",
+  "dependencies": {
+    "inquirer": "^7.3.3"
+  }
+}
