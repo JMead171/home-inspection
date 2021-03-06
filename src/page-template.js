@@ -1,4 +1,4 @@
-let generatePage  = (first, last, address, city, st, zip) => {
+let generatePage  = (name, address, citystate, zip, kit, bath, fam, type) => {
     return `
       <!DOCTYPE html>
       <html lang="en">
@@ -13,9 +13,19 @@ let generatePage  = (first, last, address, city, st, zip) => {
   
       <body>
           <h1 class="title">Home Inspection Report</h1>
-          <h2>${first} ${last}</h2>
+          <h2>${name}</h2>
           <h2>${address}</h2>
-          <h2>${city}, ${st} ${zip}</h2>
+          <h2>${citystate} ${zip}</h2>
+          <br>
+          <h1 class="title">Items Reviewed</h1>
+          <h2>Kitchen:</h2>
+          <h3>${kit}</h3>
+          <h2>Bathroom:</h2>
+          <h3>${bath}</h3>
+          <h2>Family Room:</h2>
+          <h3>${fam}</h3>
+          <h2>Type of House:</h2>
+          <h3>${type}</h3>
       </body>
   
       </html>
